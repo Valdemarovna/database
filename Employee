@@ -1,4 +1,0 @@
-CREATE TABLE IF NOT EXISTS employee (employee_id SERIAL PRIMARY KEY,
-name VARCHAR(40) NOT NULL,
-departament VARCHAR(40) NOT NULL,
-chief_employee_id INTEGER NOT NULL REFERENCES employee (employee_id));
